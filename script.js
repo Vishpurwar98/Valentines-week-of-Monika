@@ -80,7 +80,7 @@ var today = new Date();
 var month = today.getMonth(); // February = 1
 var date = today.getDate();
 
-var index = 1; // default: Valentine Day
+var index = 2; // default: Valentine Day
 
 //if (month === 1 && date >= 7 && date <= 14) {
 //  index = date - 7;
@@ -145,4 +145,5 @@ yesBtn.onclick = function () {
   questionScreen.style.display = "none";
   resultScreen.style.display = "block";
 };
+
 
