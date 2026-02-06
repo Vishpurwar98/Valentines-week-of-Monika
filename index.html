@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Just for You</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<div id="lockScreen">
+  <h2>Enter our secret</h2>
+  <input id="secretInput" type="text">
+  <br><br>
+  <button onclick="unlock()">Enter</button>
+</div>
+
+<div id="questionScreen" style="display:none;">
+  <h1>Do you accept my rose?</h1>
+  <button id="yesBtn">Yes</button>
+  <button id="noBtn">No</button>
+</div>
+
+<div id="resultScreen" style="display:none;">
+  <img src="us.jpg" width="300">
+  <h2>Happy Rose Day ❤️</h2>
+  <p>You’ll always be my yes.</p>
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
