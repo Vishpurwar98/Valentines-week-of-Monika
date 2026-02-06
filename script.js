@@ -1,3 +1,4 @@
+alert("SCRIPT VERSION TEST 3");
 var secret = "home";
 
 var lockScreen = document.getElementById("lockScreen");
@@ -145,6 +146,7 @@ yesBtn.onclick = function () {
   questionScreen.style.display = "none";
   resultScreen.style.display = "block";
 };
+
 
 
 
