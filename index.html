@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Just for You</title>
+<link rel="stylesheet" href="./style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="lockScreen">
+  <h2>What was the first dish we cooked together and the smoke alarm went off??</h2>
+  <input id="secretInput" type="text">
+  <button onclick="unlock()">Enter</button>
+</div>
+
+<div id="questionScreen" style="display:none;">
+  <h1>Do you accept my rose?</h1>
+  <button id="yesBtn">Yes</button>
+  <button id="noBtn">No</button>
+</div>
+
+<div id="resultScreen" style="display:none;">
+  <div id="imageContainer"></div>
+  <h2 id="finalTitle"></h2>
+  <p id="finalMessage"></p>
+</div>
+
+<script src="./script.js"></script>
+<div id="hearts"></div>
+
+</body>
+</html>
