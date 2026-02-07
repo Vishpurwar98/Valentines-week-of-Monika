@@ -24,7 +24,7 @@ var days = [
   {
     q: "Do you accept my rose? 🌹",
     title: "Happy Rose Day ❤️",
-    msg: "This rose carries everything I feel for you.",
+    msg: "To be very honest, No rose is prettier than you. You are the most beautiful rose in this whole world but still this rose carries everything I feel for you.",
     imgs: ["rose.jpg", "rose1.jpg"]
   },
   {
@@ -176,4 +176,5 @@ function createHeart() {
 }
 
 setInterval(createHeart, 400);
+
 
