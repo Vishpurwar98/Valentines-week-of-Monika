@@ -11,14 +11,20 @@
 
 <div id="lockScreen">
   <h2>What was the first dish we cooked together and the smoke alarm went off??</h2>
-  <input id="secretInput" type="text">
+  <input id="secretInput" type="text" placeholder="Your answer here 💗">
   <button onclick="unlock()">Enter</button>
 </div>
 
 <div id="questionScreen" style="display:none;">
   <h1>Do you accept my rose?</h1>
-  <button id="yesBtn">Yes</button>
-  <button id="noBtn">No</button>
+
+<p id="challengeText">😏 I challenge you to click “No” three times if you can.</p>
+
+<button id="yesBtn">Yes</button>
+<button id="noBtn">No</button>
+
+<div id="noMessage"></div>
+
 </div>
 
 <div id="resultScreen" style="display:none;">

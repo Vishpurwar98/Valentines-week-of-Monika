@@ -1,4 +1,4 @@
-var secret = "Egg Curry";
+var secret = "Aloo ki Sabzi";
 
 var lockScreen = document.getElementById("lockScreen");
 var questionScreen = document.getElementById("questionScreen");
@@ -12,9 +12,13 @@ var imageContainer = document.getElementById("imageContainer");
 var finalTitle = document.getElementById("finalTitle");
 var finalMessage = document.getElementById("finalMessage");
 
-var noClicks = 0;
-var yesScale = 1;
+var noMessages = [
+  "Oops 😜 try harder",
+  "Harder baby 😏",
+  "Okay wow… RESPECT 😂💀"
+];
 
+var noMessageBox = document.getElementById("noMessage");
 /* =========================
    VALENTINE WEEK DATA
    (CORRECT ORDER)
@@ -137,6 +141,17 @@ noBtn.onmouseover = function () {
 };
 
 noBtn.onclick = function () {
+  if (noClicks < 3) {
+    noMessageBox.innerText = noMessages[noClicks];
+    noMessageBox.style.opacity = "1";
+    noMessageBox.style.transform = "translateY(-5px)";
+
+    setTimeout(() => {
+      noMessageBox.style.opacity = "0";
+      noMessageBox.style.transform = "translateY(0)";
+    }, 1200);
+  }
+
   noClicks++;
 
   noBtn.style.transform = "scale(" + (1 - noClicks * 0.2) + ")";
@@ -176,5 +191,4 @@ function createHeart() {
 }
 
 setInterval(createHeart, 400);
-
 
