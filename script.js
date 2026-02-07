@@ -25,48 +25,48 @@ var days = [
     q: "Do you accept my rose? 🌹",
     title: "Happy Rose Day ❤️",
     msg: "This rose carries everything I feel for you.",
-    imgs: ["rose.jpg"]
+    imgs: ["rose.jpg", "rose1.jpg"]
   },
   {
     q: "Will you be mine forever? 💍",
     title: "Happy Propose Day 💕",
-    msg: "I choose you. Again and again.",
+    msg: "I choose you. Again and again and forever.",
     imgs: ["propose.jpg"]
   },
   {
     q: "Will you share all chocolates with me? 🍫",
     title: "Happy Chocolate Day 🍫",
-    msg: "Life is sweeter with you.",
+    msg: "I know you already do! Just wanna say that life is sweeter with you.",
     imgs: ["choco1.jpg", "choco2.jpg"]
   },
   {
     q: "Can I be your cuddle forever ? 🧸",
     title: "Happy Teddy Day 🧸",
-    msg: "You are my comfort place.",
-    imgs: ["teddy.gif"]
+    msg: "You are my comfort place. I love cuddling with you! Holding you is the best feeling in the whole world. Your amazing aroma, silky hair brishing on my nose constantly. Just love it"
+    imgs: ["teddy.gif", "teddy1.jpg"]
   },
   {
     q: "Do you promise us? 🤞",
     title: "Happy Promise Day 🤍",
-    msg: "Always and forever. It’s us.",
+    msg: "I know you asked me a few things which were left unanswered. And today i wanna tell you that Monika, i wanna be with you, iwanna give you all the happiness in the world. I do promise you everything that you asked for. We'll figure out the best. Always and forever. It’s us.",
     imgs: ["promise.jpg"]
   },
   {
     q: "Can I hug you right now? 🤗",
     title: "Happy Hug Day 🤗",
-    msg: "Wrapped in you, always.",
+    msg: "Wrapped in you, always. Sorry but another best feeling in the world!",
     imgs: ["hug1.jpg", "hug2.jpg"]
   },
   {
     q: "Can I steal a kiss? 💋",
     title: "Happy Kiss Day 💋",
-    msg: "Every kiss with you feels like home.",
+    msg: "Every kiss with you feels like home. Your juice lips 😭 uuuff. I Just wanna kiss you right now"
     imgs: ["kiss1.gif", "kiss2.jpg"]
   },
   {
-    q: "Will you be my Valentine? ❤️",
+    q: "Monika, Will you be my Valentine? ❤️",
     title: "Happy Valentine’s Day ❤️",
-    msg: "Forever & always. It’s you.",
+    msg: "Forever & always. It’s you It has always been you.",
     imgs: ["valentine.jpg"]
   }
 ];
