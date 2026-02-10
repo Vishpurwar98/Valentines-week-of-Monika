@@ -1,4 +1,4 @@
-var secret = "Cornerhouse";
+var secret = "Pink Romper";
 
 var lockScreen = document.getElementById("lockScreen");
 var questionScreen = document.getElementById("questionScreen");
@@ -207,4 +207,5 @@ function createHeart() {
 }
 
 setInterval(createHeart, 400);
+
 
