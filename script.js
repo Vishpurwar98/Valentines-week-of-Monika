@@ -216,7 +216,7 @@ yesBtn.onclick = function () {
   for (let i = 0; i < 30; i++) {
     setTimeout(createHeart, i * 100);
   }
-};
+;
 /* ===== Floating Hearts Generator ===== */
 
 function createHeart() {
@@ -237,5 +237,6 @@ function createHeart() {
 }
 
 setInterval(createHeart, 400);
+
 
 
