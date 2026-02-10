@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Just for You</title>
+<link rel="stylesheet" href="./style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="lockScreen">
+  <h2>Name one of my favourite dresses that you have ??</h2>
+  <input id="secretInput" type="text" placeholder="A promise needs trust💗">
+  <button onclick="unlock()">Enter</button>
+</div>
+
+<div id="questionScreen" style="display:none;">
+  <h1>Do you accept my rose?</h1>
+  <p>I challenge you to click NO three times if you can 😌</p>
+
+  <div id="noMessage"></div>
+
+  <button id="yesBtn">Yes</button>
+  <button id="noBtn">No</button>
+</div>
+
+<div id="resultScreen" style="display:none;">
+  <h2 id="finalTitle"></h2>
+
+  <p id="finalMessage"></p>
+
+  <h3 id="promiseHeading">My promises to you 🤍 Happy Promise Day my baby 💗</h3>
+  <div id="promiseCards"></div>
+
+  <div id="imageContainer"></div>
+</div>
+
+<script src="./script.js"></script>
+<div id="hearts"></div>
+
+</body>
+</html>
