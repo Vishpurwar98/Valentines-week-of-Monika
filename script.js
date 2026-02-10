@@ -63,8 +63,7 @@ var days = [
     imgs: ["teddy.gif", "teddy1.jpg"]
   },
   {
-    {
-  q: "Do you promise us? 🤞",
+    q: "Do you promise us? 🤞",
   title: "Happy Promise Day 🤍",
   msg: "I know you asked me a few things which were left unanswered. And today i wanna tell you that Monika, i wanna be with you, iwanna give you all the happiness in the world. I do promise you everything that you asked for. We'll figure out the best. Always and forever. It’s us. You'll find some cliché prmoises below but they do mean a lot ",
   imgs: ["promise.jpg"],
@@ -238,4 +237,5 @@ function createHeart() {
 }
 
 setInterval(createHeart, 400);
+
 
