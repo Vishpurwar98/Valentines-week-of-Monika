@@ -1,0 +1,266 @@
+/* ===== Reset & Base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #fbc2eb 0%, #d8b4ff 50%, #ffd6e8 100%);
+  font-family: 'Playfair Display', serif;
+  color: #4b2b63;
+  overflow-x: hidden;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* ===== Buttons ===== */
+button {
+  background: linear-gradient(135deg, #c8a2ff, #f2c6ff);
+  color: #4b2b63;
+  border: none;
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 8px 25px rgba(180, 130, 255, 0.4);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 35px rgba(180, 130, 255, 0.6);
+}
+
+/* ===== Image Container ===== */
+#imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+#imageContainer img {
+  max-width: 280px;
+  max-height: 380px;
+  width: auto;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(255, 105, 180, 0.4);
+  transition: transform 0.3s ease;
+}
+
+#imageContainer img:hover {
+  transform: scale(1.05);
+}
+
+/* Stagger for second image */
+#imageContainer img:nth-child(2) {
+  margin-top: 40px;
+}
+
+/* ===== Text Styling ===== */
+h1, h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.6rem;
+  color: #6a3fa0;
+  text-shadow:
+    0 0 10px rgba(186, 145, 255, 0.6),
+    0 0 20px rgba(216, 194, 255, 0.6);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #5c3b7a;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(255, 182, 193, 0.5);
+  margin-top: 10px;
+  opacity: 0.95;
+}
+
+/* ===== Soft Fade-in Animation ===== */
+#questionScreen, #resultScreen {
+  animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== Floating Hearts ===== */
+#hearts {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.teddy {
+  position: absolute;
+  bottom: -60px;
+  width: 40px;
+  height: auto;
+  animation: floatUp linear infinite;
+  opacity: 0.9;
+}
+
+
+@keyframes floatUp {
+  from {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-120vh) scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* ===== Result Screen ===== */
+#resultScreen {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 182, 193, 0.9),
+    rgba(216, 194, 255, 0.9)
+  );
+  border-radius: 30px;
+  padding: 35px;
+  max-width: 90%;
+  margin: 30px auto;
+  box-shadow:
+    0 0 40px rgba(255, 140, 190, 0.6),
+    0 0 60px rgba(180, 130, 255, 0.5);
+  text-align: center;#secretContainer {
+  display: flex;
+  flex-direction: column; /* stack input and button vertically */
+  align-items: center;    /* center horizontally */
+  gap: 15px;              /* space between input and button */
+  margin-top: 20px;       /* space below the question */
+}
+#secretContainer input {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #d8b4ff;
+  outline: none;
+  width: 250px;
+  text-align: center;     /* center text inside input */
+}
+#secretContainer input:focus {
+  border-color: #fbc2eb;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.5);
+}
+
+  position: relative;
+  z-index: 5;
+}
+
+#resultScreen img {
+  border-radius: 20px;
+  box-shadow:
+    0 15px 40px rgba(255, 140, 190, 0.5),
+    0 0 30px rgba(190, 140, 255, 0.4);
+  margin: 10px 0;
+}
+/* ===== Lock Screen Styling ===== */
+
+#lockScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  gap: 18px;
+  padding: 20px;
+}
+
+#lockScreen h2 {
+  max-width: 600px;
+}
+
+#lockScreen input {
+  width: 280px;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border-radius: 14px;
+  border: 2px solid #d8b4ff;
+  outline: none;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#lockScreen input:focus {
+  border-color: #fbc2eb;
+  box-shadow: 0 0 14px rgba(255, 182, 193, 0.6);
+}
+
+#lockScreen button {
+  margin-top: 8px;
+}
+/* ===== Center YES / NO Buttons ===== */
+
+#questionScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;   /* vertical centering */
+  text-align: center;
+  min-height: 100vh;         /* full screen height */
+  gap: 18px;
+}
+
+#questionScreen button {
+  margin: 8px;
+}
+/* ===== Center YES / NO Buttons ===== */
+
+#questionScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#questionScreen button {
+  margin: 8px;
+}
+#challengeText {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  font-family: 'Dancing Script', cursive;
+  color: #c2185b;
+}
+#noMessage {
+  margin-top: 12px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2rem;
+  color: #d63384;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+#noMessage {
+  height: 28px;
+  font-size: 1.3rem;
+  color: #6a3fa0;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 10px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
