@@ -193,7 +193,7 @@ yesBtn.onclick = function () {
 function createHeart() {
   var teddy = document.createElement("img");
   teddy.className = "teddy";
-  teddy.src = "floatingteddy.png";
+  teddy.src = "floatingpromise.png";
 
   teddy.style.left = Math.random() * 100 + "vw";
   teddy.style.animationDuration = (5 + Math.random() * 5) + "s";
@@ -207,5 +207,6 @@ function createHeart() {
 }
 
 setInterval(createHeart, 400);
+
 
 
