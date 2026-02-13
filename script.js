@@ -15,7 +15,7 @@ var finalMessage = document.getElementById("finalMessage");
 var noMessages = [
   "Oops 😜 try harder",
   "Harder baby 😏",
-  "Okay wow… RESPECT 😂💀"
+  "Muahhhh💋"
 ];
 var noClicks = 0;
 var yesScale = 1;
@@ -218,5 +218,6 @@ function createHeart() {
 }
 
 setInterval(createHeart, 400);
+
 
 
