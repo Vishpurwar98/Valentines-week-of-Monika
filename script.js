@@ -67,7 +67,7 @@ var days = [
   {
     q: "Can I steal a kiss? 💋",
     title: "Happy Kiss Day 💋",
-    msg: "Your juice lips 😭 uuuff. Every kiss with you feels like home. I Just wanna kiss you right now",
+    msg: "Your juice lips 😭 uuuff. Every kiss with you feels like home. I could just kiss you all day long forever 😘 ",
     imgs: ["kiss1.gif", "kiss2.jpg"]
   },
   {
@@ -218,4 +218,5 @@ function createHeart() {
 }
 
 setInterval(createHeart, 400);
+
 
