@@ -13,8 +13,8 @@ var finalTitle = document.getElementById("finalTitle");
 var finalMessage = document.getElementById("finalMessage");
 
 var noMessages = [
-  "Oops 😜 try harder",
-  "Harder baby 😏",
+  "A'int so easy to kiss me 😜",
+  "A little softer  baby 😏",
   "Muahhhh💋"
 ];
 var noClicks = 0;
@@ -222,4 +222,5 @@ function createHeart() {
 }
 
 setInterval(createHeart, 400);
+
 
