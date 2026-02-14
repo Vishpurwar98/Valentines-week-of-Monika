@@ -246,7 +246,7 @@ setInterval(createHeart, 400);
 // Giant heart every 6 seconds
 setInterval(() => {
   var bigHeart = document.createElement("img");
-  bigHeart.src = "floatingheart.png";
+  bigHeart.src = "floatinghearts.png";
   bigHeart.className = "teddy";
   bigHeart.style.width = "120px";
   bigHeart.style.left = Math.random() * 100 + "vw";
@@ -259,4 +259,5 @@ setInterval(() => {
   }, 8000);
 
 }, 6000);
+
 
