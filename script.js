@@ -1,4 +1,4 @@
-var secret = "Me";
+var secret = "All of Me";
 
 var lockScreen = document.getElementById("lockScreen");
 var questionScreen = document.getElementById("questionScreen");
@@ -280,4 +280,5 @@ function createFallingHeart() {
     heart.remove();
   }, 4000);
 }
+
 
