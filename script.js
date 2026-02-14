@@ -73,11 +73,7 @@ var days = [
   {
     q: "Monika, Will you be my Valentine? ❤️",
     title: "Happy Valentine’s Day ❤️",
-    msg: "Forever & always. It’s you 💘 It has always been you💝. you lighten up my saddest days. you take care of me when im down. The day we met and confessed, I think somewhere in our hearts we both knew that this will be it. Yes we've had ups and downs, and we'll have more as well, but We shall sail together for a smooth ride. I will hold your hands now and forever🤝🏻. oh Wait not once in these 7 days ive said how beautiful you're right? sorrrryyyyy😭🥺!! Monika, I cant tell even begin to tell you how gorgeious you are to me in my eyes😭. Absolutely stunning. Takes my breath away every time I see you🔥. you look stunning in a normal jeans/top😘. you look dazzling in a dress🙈. and you look absolutely perfect in your everyday/home clothes🥵. you know how much I admire your beauty and your body. I just cant get enough of it💦. ive tried to make you admire your body as well, yes you have grown, theres still room to grow tho (I just don't get it. how can someone like you not love and admire her own amazing body and beauty. I mean whats not to like). I just love you all your assets🥵. (iykwim😉) Sorry got side tracked there. Baby, I just wanted show you how much Ive loved you, how much I love, and how much I'll always love. honestly I think love you a little more every second, every hour, every day. I hope i was able to make this valentines week was special for you. 
-
-~Signing off
-Vish
-",
+    msg: "Forever & always. It’s you 💘 It has always been you💝. you lighten up my saddest days. you take care of me when im down. The day we met and confessed, I think somewhere in our hearts we both knew that this will be it. Yes we've had ups and downs, and we'll have more as well, but We shall sail together for a smooth ride. I will hold your hands now and forever🤝🏻. oh Wait not once in these 7 days ive said how beautiful you're right? sorrrryyyyy😭🥺!! Monika, I cant tell even begin to tell you how gorgeious you are to me in my eyes😭. Absolutely stunning. Takes my breath away every time I see you🔥. you look stunning in a normal jeans/top😘. you look dazzling in a dress🙈. and you look absolutely perfect in your everyday/home clothes🥵. you know how much I admire your beauty and your body. I just cant get enough of it💦. ive tried to make you admire your body as well, yes you have grown, theres still room to grow tho (I just don't get it. how can someone like you not love and admire her own amazing body and beauty. I mean whats not to like). I just love you all your assets🥵. (iykwim😉) Sorry got side tracked there. Baby, I just wanted show you how much Ive loved you, how much I love, and how much I'll always love. honestly I think love you a little more every second, every hour, every day. I hope i was able to make this valentines week was special for you.~Signing off for thid year. Your Vish",
     imgs: ["valentine.jpg"]
   }
 ];
@@ -284,5 +280,6 @@ function createFallingHeart() {
     heart.remove();
   }, 4000);
 }
+
 
 
